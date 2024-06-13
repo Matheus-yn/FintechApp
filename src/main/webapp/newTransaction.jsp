@@ -12,8 +12,8 @@
         <label for="amount">Quantia:</label>
         <input type="number" id="amount" name="amount" required><br>
         <label for="type">Tipo:</label>
-        <input type="radio" id="entrada" name="type" value="entrada" required> Entrada
-        <input type="radio" id="saida" name="type" value="saida" required> Saída<br>
+        <input type="radio" id="entrada" name="type" value="Entrada" required> Entrada
+        <input type="radio" id="saida" name="type" value="Saída" required> Saída<br>
         <label for="date">Data:</label>
         <input type="date" id="date" name="date" required><br>
         <label for="time">Horário:</label>

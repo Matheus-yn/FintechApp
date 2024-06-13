@@ -13,12 +13,16 @@
                 <th>Quantia</th>
                 <th>Data</th>
                 <th>Horário</th>
+                <th>Nome</th>
+                <th>Tipo</th>
             </tr>
             <c:forEach var="transaction" items="${transactions}">
                 <tr>
                     <td>${transaction.amount}</td>
                     <td>${transaction.date}</td>
                     <td>${transaction.time}</td>
+                    <td>${transaction.name}</td>
+                    <td>${transaction.type}</td>
                 </tr>
             </c:forEach>
         </table>

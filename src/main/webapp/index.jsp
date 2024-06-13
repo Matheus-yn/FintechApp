@@ -13,7 +13,7 @@
             <th>Data</th>
             <th>Horário</th>
         </tr>
-        <!-- Supondo que as transações são passadas como atributo de requisição -->
+       
         <c:forEach var="transaction" items="${transactions}">
             <tr>
                 <td>${transaction.amount}</td>

@@ -7,12 +7,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/register")
+@WebServlet("/register2")
 public class RegisterServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String username = req.getParameter("username");
-        String password = req.getParameter("password");
+    
 
         // Adicione a lógica de registro aqui
         resp.sendRedirect("login.jsp");
